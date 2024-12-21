@@ -5,8 +5,8 @@ import sys
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_ignore_empty=True)
 
-    API_ID: int = 1234
-    API_HASH: str = 'abcd'
+    API_ID: int = 27030681
+    API_HASH: str = '45e73bc523f7e1b5a1a81442fdcf9c2f'
     
     SUPPORT_AUTHOR: bool = True
     
